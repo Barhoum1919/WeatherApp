@@ -1,0 +1,19 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* Make icons visible on dark background */
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 0.5; /* Make buttons slightly transparent */
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    display: none;
+}
+
+.carousel:hover .carousel-control-prev,
+.carousel:hover .carousel-control-next {
+   /* Show buttons on carousel hover */
+   display: block;
+}
